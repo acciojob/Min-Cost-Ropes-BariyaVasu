@@ -21,6 +21,9 @@ function mincost(arr){
         else ropes.splice(index, 0, cost);
     }
 
+	return totalCost;
+	
+
 
   
 }
