@@ -21,4 +21,5 @@ function mincost(arr) {
   }
 
   return totalCost;
-}
+}console.log(mincost([4, 3, 2, 6]));      // Output: 29
+console.log(mincost([1, 2, 3, 4, 5]));   // Output: 33
