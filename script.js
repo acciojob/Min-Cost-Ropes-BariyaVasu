@@ -4,6 +4,8 @@ function mincost(arr) {
   // Convert array into a min heap
   arr.sort((a, b) => a - b);
 
+	console.log(arr);
+
   let cost = 0;
 
   while (arr.length > 1) {
